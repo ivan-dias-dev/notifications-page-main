@@ -1,0 +1,279 @@
+/*
+- Red: hsl(1, 90%, 64%)
+- Blue: hsl(219, 85%, 26%)
+- White: hsl(0, 0%, 100%)
+- Very light grayish blue: hsl(210, 60%, 98%)
+- Light grayish blue 1: hsl(211, 68%, 94%)
+- Light grayish blue 2: hsl(205, 33%, 90%)
+- Grayish blue: hsl(219, 14%, 63%)
+- Dark grayish blue: hsl(219, 12%, 42%)
+- Very dark blue: hsl(224, 21%, 14%)
+- Font size (paragraph): 16px
+- Family: [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
+- Weights: 500, 800
+*/
+* {
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  /* font-weight: 800; */
+  color: hsl(224, 21%, 14%);
+}
+body {
+  background-color: hsl(210, 60%, 98%);
+  font-size: 16px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(219, 85%, 26%);
+}
+.div1 {
+  display: flex;
+}
+.notifics {
+  margin: 1.4em 0 0 0.6em;
+  text-align: left;
+  width: 7em;
+  font-size: 24px;
+  color: black;
+  font-weight: 800;
+}
+.sheett3 {
+  width: 2em;
+  height: 1.5em;
+  background-color: hsl(219, 85%, 26%);
+  color: white;
+  text-align: center;
+  margin: 3em 0 0 0;
+  border-radius: 5px;
+  margin-left: 1em;
+  font-weight: 800;
+}
+.titulo-fist {
+  margin: 3em 0 0 0;
+  text-align: right;
+  font-weight: 500;
+  color: hsl(224, 21%, 14%);
+}
+.texto-alternative {
+  border: 1px solid hsl(342, 14%, 63%);
+  padding: 1em;
+  margin: 1em;
+  border-radius: 3px;
+}
+.texto-alternative:hover {
+  background-color: hsl(205, 33%, 90%);
+  border: none;
+}
+.imagem {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.imagem2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.red-circle {
+  color: hsl(1, 90%, 64%);
+  font-weight: bold;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  text-align: justify;
+  color: hsl(224, 21%, 14%);
+}
+
+.name {
+  color: hsl(224, 21%, 14%);
+  padding-right: 10px;
+}
+.name:hover {
+  color: hsl(219, 85%, 26%);
+}
+p {
+  color: hsl(219, 12%, 42%);
+}
+a {
+  color: hsl(225, 8%, 38%);
+  pointer-events: painted;
+}
+a:hover {
+  color: hsl(219, 85%, 26%);
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 55%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  margin-top: 4.5em;
+  padding: 0 2em 0 2em;
+}
+.span-group {
+  color: hsl(219, 85%, 26%);
+}
+span {
+  color: hsl(219, 14%, 63%);
+}
+.container3 {
+  background-color: hsl(205.71deg 63.64% 97.84%);
+  padding: 1em;
+  margin: 0.5em;
+  display: flex;
+  border-radius: 10px;
+}
+
+.container4 {
+  padding: 1em;
+  margin: 0.5em;
+  display: flex;
+  border-radius: 5px;
+}
+
+.mid {
+  width: 53%;
+}
+.mid2 {
+  width: 40%;
+}
+/* Estilos para telas com largura máxima de 600px */
+/* @media (max-width: 479) {
+  div,
+  a,
+  p {
+    font-size: 16px;
+  }
+  .container {
+    background-color: brown;
+    width: 100%;
+  }
+} */
+
+/* @media (max-width: 480) {
+  .container {
+    background-color: brown;
+  }
+  .mid {
+    width: 46%;
+    background-color: brown;
+  }
+  * {
+    background-color: blueviolet;
+  }
+} */
+/* @media (min-width: 480) and (max-width: 1190px) {
+  div,
+  a,
+  p {
+    font-size: 18px;
+  }
+  .container {
+    background-color: brown;
+  }
+  .mid {
+    width: 46%;
+    background-color: brown;
+  }
+} */
+
+/* Estilos para telas com largura mínima de 1200px */
+@media screen and (min-width: 0px) and (max-width: 460px) {
+  div,
+  a,
+  p {
+    font-size: 16px;
+  }
+  .mid {
+    width: 20%;
+    background-color: rgb(6, 13, 73);
+    padding: 0;
+  }
+  .mid2 {
+    width: 0;
+  }
+  .sheett3 {
+    margin: 2.7em 0 0 0;
+  }
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 461px) and (max-width: 1200px) {
+  div,
+  a,
+  p {
+    font-size: 16px;
+  }
+  .mid {
+    width: 50%;
+    background-color: rgb(6, 13, 73);
+    padding: 0;
+  }
+  .sheett3 {
+    margin: 2.7em 0 0 0;
+  }
+  .container {
+    width: 70%;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 461px) and (max-width: 1200px) {
+  div,
+  a,
+  p {
+    font-size: 18px;
+  }
+}
+/*
+ <div
+      style="width: 3em; height: 3em; background-color: hsl(219, 85%, 26%)"
+    ></div>
+
+    <div
+      style="width: 3em; height: 3em; background-color: hsl(1, 90%, 64%)"
+    ></div>
+
+    <div
+      style="width: 3em; height: 3em; background-color: hsl(0, 0%, 100%)"
+    ></div>
+
+    <div
+      style="width: 3em; height: 3em; background-color: hsl(210, 60%, 98%)"
+    ></div>
+    <div
+      style="width: 3em; height: 3em; background-color: hsl(211, 68%, 94%)"
+    ></div>
+    <div
+      style="width: 3em; height: 3em; background-color: hsl(205, 33%, 90%)"
+    ></div>
+    <div
+      style="width: 3em; height: 3em; background-color: hsl(219, 14%, 63%)"
+    ></div>
+    <div
+      style="width: 3em; height: 3em; background-color: hsl(219, 12%, 42%)"
+    ></div>
+    <div
+      style="width: 3em; height: 3em; background-color: hsl(224, 21%, 14%)"
+    ></div>
+    <div
+      style="width: 3em; height: 3em; background-color: hsl(219, 85%, 26%)"
+    ></div>
+*/
